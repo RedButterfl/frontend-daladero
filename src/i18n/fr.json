@@ -1,0 +1,292 @@
+{
+    "settings": {
+    "title": "Paramètres",
+    "subtitle": "Gérez les préférences de votre compte et de l’application",
+    "general": {
+      "title": "Préférences générales"
+    },
+    "language": {
+      "label": "Langue de l’interface",
+      "fr": "Français",
+      "en": "English",
+      "es": "Español",
+      "de": "Deutsch"
+    },
+    "theme": {
+      "label": "Thème de l’interface",
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Système",
+      "systemHint": "Le thème \"Système\" suit les préférences de votre appareil"
+    },
+    "actions": {
+      "save": "Sauvegarder les changements",
+      "saving": "Sauvegarde en cours..."
+    },
+    "dangerZone": {
+      "title": "Zone de danger",
+      "deleteTitle": "Supprimer définitivement votre compte",
+      "deleteDescription": "Cette action est",
+      "irreversible": "irréversible",
+      "deleteConsequences": "Tous vos documents, mémoires, connexions GitHub et données seront supprimés définitivement.",
+      "deleteButton": "Supprimer mon compte"
+    }
+  },
+  "profile": {
+    "title": "Profil Utilisateur",
+    "subtitle": "Visualisez et modifiez vos informations personnelles",
+    "avatarAlt": "Photo de profil",
+    "anonymous": "Anonyme",
+    "noBio": "Aucune bio pour le moment",
+    "username": {
+      "label": "Nom d'utilisateur",
+      "placeholder": "Votre pseudo"
+    },
+    "email": {
+      "label": "Adresse e-mail",
+      "immutable": "L'email ne peut pas être modifié"
+    },
+    "bio": {
+      "label": "Bio",
+      "placeholderEdit": "Parlez un peu de vous, vos passions, votre parcours...",
+      "placeholderEmpty": "Aucune bio",
+      "helper": "Une courte description visible par l'IA pour personnaliser ses réponses"
+    },
+    "actions": {
+      "edit": "Modifier le profil",
+      "save": "Sauvegarder les changements"
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "save": "Sauvegarder",
+    "saving": "Sauvegarde en cours...",
+    "delete": "Supprimer",
+    "error": "Une erreur est survenue.",
+    "success": "Opération réussie !",
+    "document": "Document",
+    "documents": "Documents",
+    "memories": "Mémoires",
+    "github": "GitHub",
+    "status": "Statut",
+    "active": "Actif",
+    "connected": "Connecté",
+    "notConnected": "Non connecté",
+    "importance": "Importance",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "defaultUser": "Utilisateur",
+    "logout": "Déconnexion"
+  },
+  "github": {
+    "title": "Intégration GitHub",
+    "subtitle": "Connectez votre compte GitHub pour enrichir automatiquement votre base de connaissances",
+    "connected": {
+      "title": "Connecté à GitHub",
+      "since": "Connecté le"
+    },
+    "disconnected": {
+      "title": "Connecter votre compte GitHub",
+      "description": "Permettez à l'IA d'analyser vos projets GitHub pour enrichir votre profil et mieux vous présenter aux recruteurs."
+    },
+    "actions": {
+      "connect": "Connecter GitHub",
+      "disconnect": "Déconnecter",
+      "index": "Indexer",
+      "indexing": "Indexation...",
+      "viewOnGitHub": "Voir sur GitHub"
+    },
+    "indexed": {
+      "title": "Repositories indexés ({count})",
+      "description": "Ces repositories sont déjà dans votre base de connaissances"
+    },
+    "available": {
+      "title": "Vos repositories GitHub ({count})",
+      "description": "Sélectionnez ceux que vous souhaitez indexer dans votre base de connaissances",
+      "empty": "Aucun repository trouvé sur votre compte GitHub"
+    },
+    "filesIndexed": "fichiers indexés",
+    "indexedAt": "Indexé le",
+    "error": "Erreur",
+    "labels": {
+      "private": "Privé",
+      "indexed": "Déjà indexé"
+    },
+    "status": {
+      "pending": "En attente",
+      "processing": "En traitement",
+      "completed": "Terminé",
+      "failed": "Échec"
+    }
+  },
+  "documents": {
+    "title": "Mes Documents",
+    "subtitle": "Gérez vos documents dans votre base de connaissances personnelle",
+    "upload": {
+      "title": "Ajouter des documents",
+      "dropzone": {
+        "title": "Glissez-déposez vos fichiers ici",
+        "subtitle": "ou cliquez pour sélectionner des fichiers"
+      },
+      "button": "Choisir des fichiers",
+      "uploading": "Upload en cours...",
+      "supportedFormats": "Formats supportés : PDF, TXT, MD, DOC, DOCX, CSV, JSON • Max 10 Mo par fichier"
+    },
+    "list": {
+      "title": "Mes fichiers ({count})",
+      "title_zero": "Mes fichiers",
+      "empty": {
+        "title": "Aucun document",
+        "description": "Commencez par uploader vos premiers documents pour enrichir votre base de connaissances."
+      }
+    },
+    "status": {
+      "pending": "En attente",
+      "processing": "En traitement",
+      "completed": "Indexé",
+      "failed": "Échec"
+    },
+    "actions": {
+      "view": "Voir le contenu",
+      "delete": "Supprimer"
+    }
+  },
+  "auth": {
+    "subtitle": "Base de Connaissances IA",
+    "login": {
+      "title": "Connexion",
+      "description": "Accédez à votre base de connaissances",
+      "submit": "Se connecter",
+      "link": "Se connecter"
+    },
+    "signup": {
+      "title": "Inscription",
+      "description": "Créez votre compte pour commencer",
+      "submit": "Créer mon compte",
+      "link": "S'inscrire"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "votre@email.com"
+    },
+    "password": {
+      "label": "Mot de passe",
+      "placeholder": "••••••••"
+    },
+    "confirmPassword": {
+      "label": "Confirmer le mot de passe"
+    },
+    "noAccount": "Pas encore de compte ?",
+    "hasAccount": "Déjà un compte ?",
+    "legal": "En continuant, vous acceptez nos {terms}",
+    "terms": "conditions d'utilisation"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue",
+    "defaultUser": "Utilisateur",
+    "welcomeMessage": "Votre assistant IA personnel est prêt à vous aider. Uploadez vos documents, connectez GitHub et commencez à discuter avec votre base de connaissances intelligente.",
+    "startChat": "Commencer le chat IA",
+    "uploadDocuments": "Uploader des documents",
+    "quickActions": "Actions rapides",
+    "mainFeatures": "Fonctionnalités principales",
+    "quickActions": {
+      "chatWithAI": {
+        "title": "Chat avec l'IA",
+        "description": "Posez des questions à vos documents"
+      },
+      "uploadFiles": {
+        "title": "Uploader des fichiers",
+        "description": "Enrichir votre base de connaissances"
+      },
+      "connectGithub": {
+        "title": "Connecter GitHub",
+        "description": "Indexer vos repositories automatiquement"
+      },
+      "manageMemories": {
+        "title": "Gérer les mémoires",
+        "description": "Personnaliser votre profil IA"
+      }
+    },
+    "features": {
+      "aiAgents": {
+        "title": "Agents IA Intelligents",
+        "description": "Des assistants IA qui comprennent vos documents et votre contexte",
+        "benefit1": "Recherche sémantique",
+        "benefit2": "Réponses contextuelles",
+        "benefit3": "Mémoire persistante"
+      },
+      "knowledgeBase": {
+        "title": "Base de Connaissances",
+        "description": "Centralisez tous vos documents dans un vector store intelligent",
+        "benefit1": "Support multi-formats",
+        "benefit2": "Indexation automatique",
+        "benefit3": "Recherche rapide"
+      },
+      "githubIntegration": {
+        "title": "Intégration GitHub",
+        "description": "Connectez vos repositories pour enrichir votre profil automatiquement",
+        "benefit1": "OAuth sécurisé",
+        "benefit2": "Indexation auto",
+        "benefit3": "Présentation IA"
+      }
+    }
+  },
+  "chat": {
+    "streaming": "Streaming",
+    "clearConversation": "Effacer la conversation",
+    "sources": "Sources :",
+    "savingMemory": "Sauvegarde en cours...",
+    "memorySaved": "Mémoire sauvegardée",
+    "agentThinking": "L'agent réfléchit...",
+    "askQuestionPlaceholder": "Posez votre question...",
+    "suggestions": {
+      "summarize": "Résume mes documents",
+      "skills": "Quelles sont mes compétences ?",
+      "analyzeGithub": "Analyse mon profil GitHub",
+      "helpCV": "Aide-moi à rédiger un CV"
+    }
+  },
+  "memoriesPage": {
+    "title": "Mes Mémoires",
+    "description": "Consultez vos aspirations professionnelles et préférences sauvegardées",
+    "searchPlaceholder": "Rechercher dans vos mémoires...",
+    "allCategories": "Toutes catégories",
+    "myMemories": "Mes mémoires",
+    "noResults": "Aucun résultat trouvé",
+    "noMemories": "Aucune mémoire",
+    "noResultsHint": "Essayez avec d'autres termes de recherche ou modifiez le filtre.",
+    "noMemoriesHint": "Commencez par créer votre première mémoire en discutant avec le Memory Manager !",
+    "deleteMemory": "Supprimer cette mémoire",
+    "categoryNames": {
+      "career_goal": "Objectif de Carrière",
+      "skill": "Compétence",
+      "project_preference": "Préférence de Projet",
+      "personal_preference": "Préférence Personnelle",
+      "default": "Général"
+    }
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "chat": "Chat IA",
+    "documents": "Documents",
+    "memories": "Mémoires",
+    "github": "GitHub",
+    "profile": "Profil",
+    "settings": "Paramètres"
+  },
+  "header": {
+    "searchPlaceholder": "Rechercher dans vos documents...",
+    "notifications": "Notifications",
+    "userMenu": "Menu utilisateur"
+  },
+  "notifications": {
+    "memoryChatReady": "Memory Chat configuré",
+    "memoryChatDesc": "Votre assistant IA est prêt à sauvegarder vos préférences",
+    "systemOperational": "Système opérationnel",
+    "systemOperationalDesc": "Tous les services sont fonctionnels"
+  },
+  "common": {
+    "menu": "Menu",
+    "logoutSuccess": "Déconnexion réussie"
+  }
+}
