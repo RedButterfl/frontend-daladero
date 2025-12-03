@@ -1,0 +1,20 @@
+{
+  "standardResponse": {
+    "success": true,
+    "output": "Response from Knowledge Assistant.",
+    "sources": [
+      { "filename": "document.pdf" }
+    ]
+  },
+  "streamChunks": [
+    "data: {\"type\": \"token\", \"content\": \"Streaming \"}\n\n",
+    "data: {\"type\": \"token\", \"content\": \"response \"}\n\n",
+    "data: {\"type\": \"token\", \"content\": \"active.\"}\n\n",
+    "data: {\"type\": \"tool_call_start\", \"tool\": \"save_memory\"}\n\n",
+    "data: {\"type\": \"tool_call_end\", \"tool\": \"save_memory\", \"result\": \"✅ Saved\"}\n\n",
+    "data: {\"type\": \"done\"}\n\n"
+  ],
+  "serverError": {
+    "error": "Internal Server Error"
+  }
+}

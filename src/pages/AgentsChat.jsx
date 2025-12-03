@@ -334,6 +334,7 @@ Dites-moi, qu'est-ce qui vous amène aujourd'hui ?`
         {/* Agent Selector */}
         <div className="relative">
           <select
+            data-cy="agent-selector"
             value={selectedAgent}
             onChange={(e) => handleAgentChange(e.target.value)}
             className="appearance-none bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 pr-8 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-pointer"
@@ -352,6 +353,7 @@ Dites-moi, qu'est-ce qui vous amène aujourd'hui ?`
         </div>
 
         <button
+          data-cy="clear-btn"
           onClick={clearMessages}
           className="p-2 text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-lg transition-colors"
           title={t("Effacer la conversation")}
@@ -385,7 +387,7 @@ Dites-moi, qu'est-ce qui vous amène aujourd'hui ?`
             </div>
 
             {/* Message Bubble */}
-            <div className={`rounded-2xl px-4 py-3 min-w-32 ${
+            <div data-cy={`message-${message.type}`} className={`rounded-2xl px-4 py-3 min-w-32 ${
               message.type === 'user'
                 ? 'bg-primary-600 text-white'
                 : message.isError
@@ -479,6 +481,7 @@ Dites-moi, qu'est-ce qui vous amène aujourd'hui ?`
       <form onSubmit={handleSendMessage} className="flex items-end space-x-3">
         <div className="flex-1">
           <textarea
+            data-cy="chat-input"
             ref={inputRef}
             value={inputMessage}
             onChange={(e) => setInputMessage(e.target.value)}
@@ -495,6 +498,7 @@ Dites-moi, qu'est-ce qui vous amène aujourd'hui ?`
           />
         </div>
         <button
+          data-cy="send-btn"
           type="submit"
           disabled={!inputMessage.trim() || isLoading}
           className="p-3 bg-primary-600 hover:bg-primary-700 disabled:bg-gray-400 dark:disabled:bg-gray-600 text-white rounded-lg transition-colors disabled:cursor-not-allowed"
@@ -512,6 +516,7 @@ Dites-moi, qu'est-ce qui vous amène aujourd'hui ?`
           t("Aide-moi à rédiger un CV")
         ].map((suggestion) => (
           <button
+            data-cy="quick-suggestion"
             key={suggestion}
             onClick={() => setInputMessage(suggestion)}
             className="text-xs bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 px-3 py-1.5 rounded-full transition-colors"

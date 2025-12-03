@@ -1,0 +1,15 @@
+{
+  "messages": {
+    "hello": "Hello AI",
+    "complexQuery": "Analyze my skills",
+    "streamQuery": "My career goals"
+  },
+  "responses": {
+    "standard": {
+      "success": true,
+      "output": "Here is the information you requested based on your documents.",
+      "sources": [{ "filename": "cv.pdf" }]
+    },
+    "memoryStream": "data: {\"type\": \"token\", \"content\": \"I \"}\n\ndata: {\"type\": \"token\", \"content\": \"understand.\"}\n\ndata: {\"type\": \"done\"}\n\n"
+  }
+}

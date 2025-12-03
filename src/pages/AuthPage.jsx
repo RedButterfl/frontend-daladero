@@ -232,13 +232,13 @@ export default function AuthPage() {
         </form>
 
         {/* Lien de bascule */}
-        <div className="mt-8 text-center">
+        <div className="mt-8 text-center switchmodediv">
           <p className="text-gray-600 dark:text-gray-400">
             {isLogin ? t('auth.noAccount') : t('auth.hasAccount')}
             {' '}
             <button
               onClick={switchMode}
-              className="font-semibold text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 underline-offset-4 hover:underline transition"
+              className="switchmodebtn font-semibold text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 underline-offset-4 hover:underline transition"
             >
               {isLogin ? t('auth.signup.link') : t('auth.login.link')}
             </button>
